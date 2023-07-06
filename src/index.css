@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: rgb(219, 220, 221);
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(top rgba(2,0,36,1) 10%, rgba(3,3,215,1) 100%, rgba(0,196,236,1) 100%);
+  }
+#TituloDiv{
+    text-align: center;
+    text-transform: uppercase;
+   }
+#texto{
+    margin: 2vh 4vw;
+    font-size: 1.5em;
+    line-height: 1.8em;
+   }
+#recompensas{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+.recompensasNum{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 2vh;
+}
+.cartaz{
+ 
+  width: 20vw;
+  border: 2px solid black;
+  
+}
+.cartazdiv{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1vh;
+}

@@ -1,0 +1,93 @@
+h1{
+  color: black;
+}
+@keyframes menu{
+
+  from{
+    left: 42.8vw;
+    transform:rotate(360deg);
+   
+  }
+  to{
+    left:0%;
+    
+  }
+}
+@keyframes menur{
+
+  from{
+    left:0%;
+    transform:rotate(-360deg);
+   
+  }
+  to{
+    left: 42.8vw;
+    
+  }
+}
+#barco{
+  margin-bottom: 5vh;
+  margin-left: 2.5vw;
+  width:max-content;
+  position: relative;
+  display: flex;
+  
+}
+.left{
+  left: 42.8vw;
+}
+.manime{
+  animation-name: menu;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+}
+.retorne{
+  animation-name: menur;
+  animation-duration: 4s;
+  animation-delay: 0.5s;
+  animation-iteration-count: 1;
+ 
+ 
+}
+
+#tripulacao{
+  display: flex;
+  width: max-content;
+  flex-direction: row;
+  
+  margin-top: 2vh;
+  word-wrap: break-word;
+  background-color: aliceblue;
+ 
+  padding:1vw 1vw 1vw 1vw ;
+  border-radius: 2vw;
+
+}
+#menu{
+  width: 7vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  
+}
+.mugiwara{
+  opacity: 0.5;
+  display: none;
+  width: 7vw;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+  border: 2px solid black;
+  border-radius: 50%;
+ 
+}
+.mostre{
+  display: block;
+}
+.mugiwara:hover{
+  opacity: 1;
+ 
+  cursor: pointer;
+  transform: scale(1.1);
+}
